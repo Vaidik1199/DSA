@@ -1,5 +1,5 @@
 public class Conditionals {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int salary = 18000;
         if (salary > 15000){
             salary = salary + 2000;

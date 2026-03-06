@@ -1,5 +1,5 @@
 public class Q2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Revesre number answer problem");
 
         int n= 12345;

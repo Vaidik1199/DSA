@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Loops {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Q: Print numbers form one to five
         for (int i=1; i<6; i++){
             System.out.println(i);

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CaseCheck {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         char a = inp.next().trim().charAt(0);
 

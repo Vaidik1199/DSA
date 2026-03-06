@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Fibo {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Fibo");
         Scanner in = new Scanner(System.in);
 

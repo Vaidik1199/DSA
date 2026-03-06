@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TypeCasting {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         float num = input.nextFloat();
         System.out.println(num);

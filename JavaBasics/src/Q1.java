@@ -1,5 +1,5 @@
 public class Q1 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Question One");
         int n = 1383933;
 
