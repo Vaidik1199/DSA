@@ -4,7 +4,13 @@ public class funcSum {
     public static void main(String[] args) {
         // In java The functions are called as methods
 //      sum();    to simply call!!!
-        int ans = sum2();
+
+
+//        int ans = sum2();
+//        System.out.println(ans);
+
+
+        int ans = sum3(44,56);
         System.out.println(ans);
     }
 
@@ -18,7 +24,7 @@ public class funcSum {
         int sum = num1 + num2;
         return sum;
 
-        // after returing khatam,,,, nothing will execute here after reuturn
+        // after returning khatam,,,, nothing will execute here after reuturn
         // this is dead land
     }
 
@@ -31,5 +37,12 @@ public class funcSum {
         int num2 = in.nextInt();
         int sum = num1 + num2;
         System.out.println("The sum of both of the number is : "+ sum);
+    }
+
+
+    // pass the value of numbers when you are calling the method in main();
+    static int sum3(int a, int b) {
+        int sum = a + b;
+        return sum;
     }
 }
