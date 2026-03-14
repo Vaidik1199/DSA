@@ -4,9 +4,9 @@ import java.util.Arrays;
 public class VarArgs {
     public static void main(String[] args) {
 
-        multiple(2,3,"four","five","yo-yo");
+//        multiple(2,3,"four","five","yo-yo");
 
-        fun(2,3,4,5,6,34,5,32,255,64,1,2,3);
+//        fun(2,3,4,5,6,34,5,32,255,64,1,2,3);
 
     }
 
