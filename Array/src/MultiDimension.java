@@ -35,6 +35,7 @@ public class MultiDimension {
 
         // for input in the array
         int[][] arr3 = new int[3][2];
+        System.out.println(arr.length);// it will print 3 only not 2 means only row
 
         // taking input
         for (int row = 0; row < arr3.length; row++) {
