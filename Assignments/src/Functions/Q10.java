@@ -22,11 +22,7 @@ public class Q10 {
                 num = num/10;
                 pal = (pal + String.valueOf(rem));
             }
-            if (String.valueOf(num).equals(pal)) {
-                return true;
-            } else {
-                return false;
-            }
+            return String.valueOf(num).equals(pal);
         }
         return false;
     }
