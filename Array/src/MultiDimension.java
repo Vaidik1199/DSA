@@ -53,5 +53,10 @@ public class MultiDimension {
             }
             System.out.println();
         }
+
+        // another method to print,,,
+        for (int row = 0; row < arr.length; row++) {
+            System.out.println(Arrays.toString(arr3[row]));
+        }
     }
 }
