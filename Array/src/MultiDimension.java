@@ -41,8 +41,17 @@ public class MultiDimension {
         for (int row = 0; row < arr3.length; row++) {
             // for each col in every row
             for (int col = 0; col < arr3[row].length; col++) {
-                arr[row][col] =in.nextInt();
+                arr3[row][col] =in.nextInt();
             }
+        }
+
+        // giving output
+        for (int row = 0; row < arr3.length; row++) {
+            // for each col in every row
+            for (int col = 0; col < arr3[row].length; col++) {
+                System.out.print(arr3[row][col]+ "    ");
+            }
+            System.out.println();
         }
     }
 }
