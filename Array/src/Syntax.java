@@ -16,5 +16,9 @@ public class Syntax {
         String[] arr = new String[4];
         System.out.println(arr[0]);   // o/p null
 
+        for (String element: arr){
+            System.out.println(element);
+        }
+
     }
 }
