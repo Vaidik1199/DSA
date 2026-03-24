@@ -9,21 +9,21 @@ public class Q10 {
         System.out.print("Provide a num check if its palindrome number or not: ");
         int num = in.nextInt();
 
-        boolean output = Check(num);
-        System.out.println(output);
+        Check(num);
     }
 
-    public static boolean Check(int num) {
-        String pal = "";
-        int rem = 0;
-        if (num>0) {
-            for (int i = 0; i < num; i++) {
-                rem = num % 10;
-                num = num/10;
-                pal = (pal + String.valueOf(rem));
-            }
-            return String.valueOf(num).equals(pal);
+    private static void Check(int num) {
+        int originalNum = num;
+        int reversedNum = 0;
+        while (num!=0) {
+            int digit = num%10;
+            reversedNum = reversedNum * 10 + digit;
+            num=num/10;
         }
-        return false;
+        if (originalNum==reversedNum){
+            System.out.println(originalNum + " is a palindrome number ");
+        } else {
+            System.out.println(originalNum+ " is not a palindrome number");
+        }
     }
 }
