@@ -25,6 +25,6 @@ public class SearchIn2DArray {
                 }
             }
         }
-        return "Error";
+        return "Not present";
     }
 }
