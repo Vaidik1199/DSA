@@ -3,10 +3,10 @@
 
 public class EvenDIgits {
     public static void main(String[] args) {
-        int[] arr = {1,24,453,267};
-        System.out.println(findNumber(arr));
+        int[] arr = {12,345,2,6,7896};
+        System.out.println(findNumbers(arr));
     }
-    static int findNumber(int[] nums){
+    static int findNumbers(int[] nums){
         int count = 0;
         for(int num : nums){
             if(even(num)){
@@ -15,16 +15,19 @@ public class EvenDIgits {
         }
         return count;
     }
-    // fxn to check whether the number contains even digits or not;
-    static boolean even(int num) {
-        int count =0;
+
+
+    static boolean even(int num){
+        int numberOfDigits = digits(num);
+        return numberOfDigits % 2 ==0;
+    }
+
+    static int digits(int num){
+        int count = 0;
         while(num>0){
-            num = num/10;
             count++;
+            num = num/10;
         }
-        if(count%2==0){
-            return true;
-        }
-        return false;
+        return count;
     }
 }
