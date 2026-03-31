@@ -24,3 +24,19 @@ public class MaxWealth {
         return ans;
     }
 }
+    // enhanced for loop used...
+//    public static int maximumWealth(int[][] accounts){
+//        int ans = Integer.MIN_VALUE;
+//        for (int[] ints : accounts) {
+//            // when we start a new col, take a new sum for that row
+//            int rowsum = 0;
+//            for (int anInt : ints) {
+//                rowsum = rowsum + anInt;
+//            }
+//            if (rowsum > ans) {
+//                ans = rowsum;
+//            }
+//        }
+//        return ans;
+//    }
+
