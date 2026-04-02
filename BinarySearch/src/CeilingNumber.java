@@ -6,6 +6,12 @@ public class CeilingNumber {
     }
 
     private static int CeilingNUM(int[] arr, int target) {
+
+        // what if the target is greater than the greatest number in the array.
+        if(target>arr[arr.length-1]){
+            return -1;
+        }
+
         int start = 0;
         int end = arr.length -1;
 
@@ -19,9 +25,6 @@ public class CeilingNumber {
                 return mid;
             }
         }
-        if (start<=arr.length-1){
-            return start;// this is the smallest change...
-        }
-        return end;
+        return start;
     }
 }
