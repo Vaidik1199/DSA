@@ -1,7 +1,7 @@
 public class CeilingNumber {
     public static void main(String[] args) {
         int[] arr={-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
-        int target = -20;
+        int target = 40;
         System.out.println(CeilingNUM(arr,target));
     }
 
@@ -19,6 +19,9 @@ public class CeilingNumber {
                 return mid;
             }
         }
-        return start;   // this is the smallest change...
+        if (start<=arr.length-1){
+            return start;// this is the smallest change...
+        }
+        return end;
     }
 }
