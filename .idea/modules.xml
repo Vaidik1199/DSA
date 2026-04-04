@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Assignments/Assignments.iml" filepath="$PROJECT_DIR$/Assignments/Assignments.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FoundationQuestion/FoundationQuestion.iml" filepath="$PROJECT_DIR$/FoundationQuestion/FoundationQuestion.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasics/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinearSearch/LinearSearch.iml" filepath="$PROJECT_DIR$/LinearSearch/LinearSearch.iml" />
     </modules>
