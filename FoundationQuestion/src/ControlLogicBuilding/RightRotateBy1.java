@@ -1,4 +1,4 @@
-package MovementThinking;
+package ControlLogicBuilding;
 import java.util.Arrays;
 public class RightRotateBy1 {
     public static void main(String[] args) {
